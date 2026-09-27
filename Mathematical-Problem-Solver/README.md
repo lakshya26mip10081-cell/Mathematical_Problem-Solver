@@ -22,4 +22,18 @@ You select which mathematical problem you want to solve using the numbers 1 thro
 6. Find Random Number Generator
 The give input or you problem to a terminal.
 Then Enter 
-Output was come. 
+Output was come.
+# Technologies / Tools Used
+- **Python 3.13 will be use in this project.**
+- **'math' and 'random' standard languages are used.**
+- **Python built-in 'unittest' will be used in testing framework**
+- **Git and Github are use in version control**
+# Project Files and Structure
+- 'src/': Directory containing core mathematical logic modules.
+- 'main.py': Interactive CLI entry script to run the menu-driven application.
+-  'test_solver.py': Automated test cases to validate logic across all modules.
+# Instructions for testing
+To run the automated unit tests and verify that all the 6 mathematical modules are working correctly, execute the following command in your terminal:
+``` bash
+python -m unittest test_solver.py
+
